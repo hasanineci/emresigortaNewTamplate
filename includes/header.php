@@ -33,7 +33,7 @@
                             <div class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-text-capitalize header-nav-main-arrows">
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
-                                        <li><a class="nav-link active" href="#" title="Ana Sayfa">Anasayfa</a></li>
+                                        <li><a class="nav-link active" href="?page=anasayfa" title="Ana Sayfa">Anasayfa</a></li>
                                         <li><a class="nav-link" href="#" title="Hakkımızda">Hakkımızda</a></li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#" title="Sigorta Hizmetleri">
@@ -53,7 +53,7 @@
                                         <li><a class="nav-link" href="#">Müşteri Yorumları</a></li>
                                         <li><a class="nav-link" href="#">SSS</a></li>
                                         <li><a class="nav-link" href="#">Bilgi Merkezi</a></li>
-                                        <li><a class="nav-link" href="#">İletişim</a></li>
+                                        <li><a class="nav-link" href="?page=iletisim">İletişim</a></li>
                                     </ul>
                                 </nav>
                             </div>

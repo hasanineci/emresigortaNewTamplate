@@ -432,10 +432,10 @@
                 <h2 class="font-weight-bold text-9 mb-0 my-4 pt-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
                     <span itemprop="affiliation">İş Ortaklarımız</span>
                 </h2>
-                <h1 class="sub-title text-danger text-3 text-4 font-weight-semibold positive-ls-2 mt-3 mb-3">
+                <h1 class="sub-title text-danger font-weight-semibold text-4-5 line-height-7 mb-lg-2 mb-xl-4 pt-3">
                     <span itemprop="about">Çözüm Ortaklığı Yaptığımız Sigorta Şirketleri</span>
                 </h1>
-                <p class="text-1rem negative-ls-05 pt-3" itemprop="description">
+                <p class="text-4-5 line-height-7 text-dark mb-lg-2 mb-xl-4" itemprop="description">
                     Emre Sigorta Aracılık Hizmetleri olarak,<br>
                     Türkiye’nin önde gelen <strong>sigorta şirketleri</strong> ile iş birliği yaparak müşterilerimize en uygun,<br>
                     kapsamlı ve güvenilir <strong>sigorta çözümleri</strong> sunuyoruz. Geniş iş ortağı ağımız sayesinde her ihtiyaca özel sigorta teklifleri hazırlayabiliyor,<br>
