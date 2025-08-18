@@ -17,7 +17,7 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="index.html" title="Emre Sigorta - Ana Sayfa" aria-label="Emre Sigorta Logo">
+                            <a href="?page=anasayfa" title="Emre Sigorta - Ana Sayfa" aria-label="Emre Sigorta Logo">
                                 <img src="assets/img/logo/emre_sigorta_logo_beyaz.png" width="180" height="auto"
                                     alt="Emre Sigorta Logo - Güvenilir Sigorta Hizmetleri" />
                             </a>
@@ -34,25 +34,25 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li><a class="nav-link active" href="?page=anasayfa" title="Ana Sayfa">Anasayfa</a></li>
-                                        <li><a class="nav-link" href="#" title="Hakkımızda">Hakkımızda</a></li>
+                                        <li><a class="nav-link" href="?page=hakkımızda" title="Hakkımızda">Hakkımızda</a></li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#" title="Sigorta Hizmetleri">
                                                 Sigorta Hizmetlerimiz
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Trafik Sigortası</a></li>
-                                                <li><a class="dropdown-item" href="#">Kasko Sigortası</a></li>
-                                                <li><a class="dropdown-item" href="#">Özel Sağlık Sigortası</a></li>
-                                                <li><a class="dropdown-item" href="#">Tamamlayıcı Sağlık Sigortası</a></li>
-                                                <li><a class="dropdown-item" href="#">Konut ve DASK Sigortası</a></li>
-                                                <li><a class="dropdown-item" href="#">İşyeri Sigortası</a></li>
-                                                <li><a class="dropdown-item" href="#">Seyahat Sağlık Sigortası</a></li>
-                                                <li><a class="dropdown-item" href="#">İhtiyari Mali Mesuliyet (İMM)</a></li>
+                                                <li><a class="dropdown-item" href="?page=trafik-sigortasi">Trafik Sigortası</a></li>
+                                                <li><a class="dropdown-item" href="?page=kasko">Kasko Sigortası</a></li>
+                                                <li><a class="dropdown-item" href="?page=ozel-saglik-sigortasi">Özel Sağlık Sigortası</a></li>
+                                                <li><a class="dropdown-item" href="?page=tamamlayici-saglik-sigortasi">Tamamlayıcı Sağlık Sigortası</a></li>
+                                                <li><a class="dropdown-item" href="?page=konut-dask-sigortasi">Konut ve DASK Sigortası</a></li>
+                                                <li><a class="dropdown-item" href="?page=isyeri-sigortasi">İşyeri Sigortası</a></li>
+                                                <li><a class="dropdown-item" href="?page=seyahat-saglik-sigortasi">Seyahat Sağlık Sigortası</a></li>
+                                                <li><a class="dropdown-item" href="?page=-ihtiyari-mali-mesuliyet-imm">İhtiyari Mali Mesuliyet (İMM)</a></li>
                                             </ul>
                                         </li>
-                                        <li><a class="nav-link" href="#">Müşteri Yorumları</a></li>
-                                        <li><a class="nav-link" href="#">SSS</a></li>
-                                        <li><a class="nav-link" href="#">Bilgi Merkezi</a></li>
+                                        <li><a class="nav-link" href="?page=musteri-yorumlari">Müşteri Yorumları</a></li>
+                                        <li><a class="nav-link" href="?page=sik-sorulan-sorular">SSS</a></li>
+                                        <li><a class="nav-link" href="?page=bilgi-merkezi">Bilgi Merkezi</a></li>
                                         <li><a class="nav-link" href="?page=iletisim">İletişim</a></li>
                                     </ul>
                                 </nav>
@@ -60,7 +60,7 @@
 
                             <!-- Teklif Al Button -->
                             <a class="btn btn-primary font-weight-semibold text-3 py-lg-3 px-lg-4 btn-gradient text-quaternary anim-hover-translate-top-5px transition-2ms ms-4"
-                                href="#" target="_blank" title="Sigorta Teklifi Al">
+                                href="teklif-al" target="_blank" title="Sigorta Teklifi Al">
                                 Teklif Al
                             </a>
 

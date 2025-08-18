@@ -1,6 +1,36 @@
 <footer id="footer" class="p-relative bg-dark border-top-0">
 	<div class="container pt-5">
 		<div class="row py-5">
+
+			<div class="position-absolute vw-100 start-0 end-0 top-0 bottom-0 m-0 p-0 vc_column_container col-md-12">
+				<div class="wpb_wrapper vc_column-inner">
+					<div class="porto-ultimate-content-box-container mb-0 custom-el-1 position-absolute appear-animation fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+						<div class="porto-ultimate-content-box porto_ucb_e35a9346cd70594d63c013acc42ebe9d" style="">
+							<div class="wpb_single_image wpb_content_element vc_align_left wpb_content_element  vc_custom_1698815609299 wpb_custom_81a4f7ef9830bf958462581aa01150fb">
+								<div class="wpb_wrapper">
+
+									<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="porto-lazyload vc_single_image-img lazy-load-loaded" src="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" data-oi="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" width="140" height="140" alt="Arrow Up SVG Icon" title="ca2-arrow-up-light" loading="lazy"></div>
+								</div>
+							</div>
+
+							<div class="wpb_single_image wpb_content_element vc_align_left wpb_content_element  vc_custom_1698706209928 wpb_custom_81a4f7ef9830bf958462581aa01150fb">
+								<div class="wpb_wrapper">
+
+									<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="porto-lazyload vc_single_image-img lazy-load-loaded" src="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" data-oi="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" width="140" height="140" alt="Arrow Up SVG Icon" title="ca2-arrow-up-light" loading="lazy"></div>
+								</div>
+							</div>
+
+							<div class="wpb_single_image wpb_content_element vc_align_left wpb_content_element  vc_custom_1698706330075 wpb_custom_81a4f7ef9830bf958462581aa01150fb">
+								<div class="wpb_wrapper">
+
+									<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="porto-lazyload vc_single_image-img lazy-load-loaded" src="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" data-oi="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" width="140" height="140" alt="Arrow Up SVG Icon" title="ca2-arrow-up-light" loading="lazy"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div class="col-lg-4 mt-1">
 				<a href="demo-creative-agency-2.html" class="text-decoration-none">
 					<img src="assets/img/logo/emre_sigorta_logo_beyaz.png" width="190" class="img-fluid mb-3" alt="Emre sigorta Logo" />

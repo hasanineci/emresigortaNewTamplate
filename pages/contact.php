@@ -20,10 +20,10 @@
             <div class="col text-center my-5 pb-5">
                 <div class="py-4">
                     <ul class="breadcrumb d-flex justify-content-center text-4-5 font-weight-medium mb-2">
-                        <li><a href="demo-law-firm-2.html" class="text-color-primary text-decoration-none">HOME</a></li>
-                        <li class="text-color-primary active">CONTACT US</li>
+                        <li><a href="?page=anasayfa" class="text-color-primary text-decoration-none"><small>ANASAYFA</small></a></li>
+                        <li class="text-color-primary active"><small>BİZE ULAŞIN</small></li>
                     </ul>
-                    <h1 class="text-color-light font-weight-bold text-10">Contact Us</h1>
+                    <h1 class="text-color-light font-weight-bold text-10">BİZE ULAŞIN</h1>
                 </div>
             </div>
         </div>
@@ -122,10 +122,10 @@
                         <div class="form-group col-lg-6 col">
                             <button type="submit" class="btn btn-modern btn-dark w-100 font-weight-semibold text-capitalize text-3 py-3 anim-hover-translate-top-5px transition-2ms mb-5 mb-lg-0"><span class="px-4 d-block ws-nowrap">Gönder <i class="fas fa-paper-plane ms-2"></i></span></button>
                         </div>
-                        <div class="form-group col-lg-6 col">
+                        <div class="col-lg-6 col">
                             <!-- WhatsApp Butonu -->
-                            <a href="https://wa.me/905415148515" target="_blank">
-                                <button type="submit" class="btn btn-modern btn-dark w-100 font-weight-semibold text-capitalize text-3 py-3 anim-hover-translate-top-5px transition-2ms mb-5 mb-lg-0">WhatsApp'tan Hızlıca Ulaşın</button>
+                            <a href="https://wa.me/905415148515" target="_blank" class="btn btn-modern btn-dark w-100 font-weight-semibold text-capitalize text-3 py-3 anim-hover-translate-top-5px transition-2ms mb-5 mb-lg-0">
+                                <span class="px-4 d-block ws-nowrap"> WhatsApp'tan Hızlıca Ulaşın <i class="fa-brands fa-whatsapp fa-lg"></i></span>
                             </a>
                         </div>
                     </div>
