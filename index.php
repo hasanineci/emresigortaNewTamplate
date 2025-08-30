@@ -84,11 +84,11 @@ if (array_key_exists($page, $allowed_pages)) {
 
 
 
+        <!-- Menü -->
+        <?php include "includes/header.php"; ?>
+
+
         <div role="main" class="main">
-
-
-            <!-- Menü -->
-            <?php include "includes/header.php"; ?>
 
             <!-- İçerik -->
             <?php include $pageFile; ?>

@@ -30,13 +30,13 @@
     </div>
     <div class="p-absolute custom-el-1 custom-el-pos-5">
         <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="0">
-            <img src="img/demos/creative-agency-2/svg/arrow-up-light.svg" width="140">
+            <img src="assets/img/svg/arrow-up-light.svg" width="140">
         </div>
         <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
-            <img src="img/demos/creative-agency-2/svg/arrow-up-light.svg" width="140">
+            <img src="assets/img/svg/arrow-up-light.svg" width="140">
         </div>
         <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
-            <img src="img/demos/creative-agency-2/svg/arrow-up-light.svg" width="140">
+            <img src="assets/img/svg/arrow-up-light.svg" width="140">
         </div>
     </div>
 </section>

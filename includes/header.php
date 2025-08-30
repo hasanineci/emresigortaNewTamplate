@@ -60,7 +60,7 @@
 
                             <!-- Teklif Al Button -->
                             <a class="btn btn-primary font-weight-semibold text-3 py-lg-3 px-lg-4 btn-gradient text-quaternary anim-hover-translate-top-5px transition-2ms ms-4"
-                                href="teklif-al" target="_blank" title="Sigorta Teklifi Al">
+                                href="?page=teklif-al" title="Sigorta Teklifi Al">
                                 Teklif Al
                             </a>
 

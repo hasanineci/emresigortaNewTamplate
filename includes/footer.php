@@ -32,7 +32,7 @@
 			</div>
 
 			<div class="col-lg-4 mt-1">
-				<a href="demo-creative-agency-2.html" class="text-decoration-none">
+				<a href="?page=home" class="text-decoration-none">
 					<img src="assets/img/logo/emre_sigorta_logo_beyaz.png" width="190" class="img-fluid mb-3" alt="Emre sigorta Logo" />
 				</a>
 				<ul class="list list-unstyled">
@@ -74,12 +74,12 @@
 					<div class="col-md-4 mb-4 mb-lg-0">
 						<h4 class="text-color-light font-weight-bold mb-3">Faydalı Linkler</h4>
 						<ul class="list list-unstyled text-3-5">
-							<li><a href="about.html" title="Hakkımızda | Emre Sigorta"><span class="fa fa-angle-right"></span> Hakkımızda</a></li>
+							<li><a href="?page=about" title="Hakkımızda | Emre Sigorta"><span class="fa fa-angle-right"></span> Hakkımızda</a></li>
 							<li><a href="feature.html" title="Özellikler | Emre Sigorta"><span class="fa fa-angle-right"></span> Özellikler</a></li>
-							<li><a href="service.html" title="Hizmetlerimiz | Emre Sigorta"><span class="fa fa-angle-right"></span> Hizmetlerimiz</a></li>
+							<li><a href="service" title="Hizmetlerimiz | Emre Sigorta"><span class="fa fa-angle-right"></span> Hizmetlerimiz</a></li>
 							<li><a href="contact.html" title="İletişim | Emre Sigorta"><span class="fa fa-angle-right"></span> İletişim</a></li>
-							<li><a href="components.html" title="Sık Sorulan Sorular | Emre Sigorta"><span class="fa fa-angle-right"></span> SSS</a></li>
-							<li><a href="blog.html" title="Blog | Emre Sigorta"><span class="fa fa-angle-right"></span> Blog</a></li>
+							<li><a href="?page=qustions" title="Sık Sorulan Sorular | Emre Sigorta"><span class="fa fa-angle-right"></span> SSS</a></li>
+							<li><a href="?page=data-center" title="Blog | Emre Sigorta"><span class="fa fa-angle-right"></span> Bilgi Merkezi</a></li>
 						</ul>
 					</div>
 					<div class="col-md-4 mb-4 mb-lg-0">
@@ -128,8 +128,8 @@
 					<p class="text-start text-3-5 font-weight-semi-bold text-light mb-0">&copy; <?= date('Y') ?> Emre Sigorta Aracılık Hizmetleri. Tüm hakları saklıdır.</p>
 				</div>
 				<div class="col-lg-6 text-lg-end mt-4">
-					<a href="#" class="text-color-grey text-color-hover-primary">Gizlilik Politikası</a>
-					<a href="#" class="text-color-grey text-color-hover-primary ms-3">Kullanım Şartları</a>
+					<a href="?page=kvk-privacy-policy" class="text-color-grey text-color-hover-primary">KVK & Gizlilik Politikası</a>
+					<a href="?page=terms-of-use" class="text-color-grey text-color-hover-primary ms-3">Kullanım Şartları</a>
 				</div>
 			</div>
 		</div>
