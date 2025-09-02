@@ -1,3 +1,6 @@
 .carousel-item>.p-relative>.row>.text-white> h2, h1{
     color: #d1d1d1;
 }
+.bg-mavi{
+    background-color: #0088cc !important;
+}

@@ -8,22 +8,19 @@
 						<div class="porto-ultimate-content-box porto_ucb_e35a9346cd70594d63c013acc42ebe9d" style="">
 							<div class="wpb_single_image wpb_content_element vc_align_left wpb_content_element  vc_custom_1698815609299 wpb_custom_81a4f7ef9830bf958462581aa01150fb">
 								<div class="wpb_wrapper">
-
-									<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="porto-lazyload vc_single_image-img lazy-load-loaded" src="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" data-oi="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" width="140" height="140" alt="Arrow Up SVG Icon" title="ca2-arrow-up-light" loading="lazy"></div>
+									<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="porto-lazyload vc_single_image-img lazy-load-loaded" src="assets/img/svg/arrow-up-light.svg" data-oi="assets/img/svg/arrow-up-light.svg" width="140" height="140" alt="Arrow Up SVG Icon" title="ca2-arrow-up-light" loading="lazy"></div>
 								</div>
 							</div>
 
 							<div class="wpb_single_image wpb_content_element vc_align_left wpb_content_element  vc_custom_1698706209928 wpb_custom_81a4f7ef9830bf958462581aa01150fb">
 								<div class="wpb_wrapper">
-
-									<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="porto-lazyload vc_single_image-img lazy-load-loaded" src="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" data-oi="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" width="140" height="140" alt="Arrow Up SVG Icon" title="ca2-arrow-up-light" loading="lazy"></div>
+									<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="porto-lazyload vc_single_image-img lazy-load-loaded" src="assets/img/svg/arrow-up-light.svg" data-oi="assets/img/svg/arrow-up-light.svg" width="140" height="140" alt="Arrow Up SVG Icon" title="ca2-arrow-up-light" loading="lazy"></div>
 								</div>
 							</div>
 
 							<div class="wpb_single_image wpb_content_element vc_align_left wpb_content_element  vc_custom_1698706330075 wpb_custom_81a4f7ef9830bf958462581aa01150fb">
 								<div class="wpb_wrapper">
-
-									<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="porto-lazyload vc_single_image-img lazy-load-loaded" src="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" data-oi="https://www.portotheme.com/wordpress/porto/creative-agency2/wp-content/uploads/sites/229/2023/10/ca2-arrow-up-light.svg" width="140" height="140" alt="Arrow Up SVG Icon" title="ca2-arrow-up-light" loading="lazy"></div>
+									<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="porto-lazyload vc_single_image-img lazy-load-loaded" src="assets/img/svg/arrow-up-light.svg" data-oi="assets/img/svg/arrow-up-light.svg" width="140" height="140" alt="Arrow Up SVG Icon" title="ca2-arrow-up-light" loading="lazy"></div>
 								</div>
 							</div>
 						</div>
@@ -74,36 +71,36 @@
 					<div class="col-md-4 mb-4 mb-lg-0">
 						<h4 class="text-color-light font-weight-bold mb-3">Faydalı Linkler</h4>
 						<ul class="list list-unstyled text-3-5">
-							<li><a href="?page=about" title="Hakkımızda | Emre Sigorta"><span class="fa fa-angle-right"></span> Hakkımızda</a></li>
-							<li><a href="feature.html" title="Özellikler | Emre Sigorta"><span class="fa fa-angle-right"></span> Özellikler</a></li>
-							<li><a href="service" title="Hizmetlerimiz | Emre Sigorta"><span class="fa fa-angle-right"></span> Hizmetlerimiz</a></li>
-							<li><a href="contact.html" title="İletişim | Emre Sigorta"><span class="fa fa-angle-right"></span> İletişim</a></li>
-							<li><a href="?page=qustions" title="Sık Sorulan Sorular | Emre Sigorta"><span class="fa fa-angle-right"></span> SSS</a></li>
-							<li><a href="?page=data-center" title="Blog | Emre Sigorta"><span class="fa fa-angle-right"></span> Bilgi Merkezi</a></li>
+							<li><a href="?page=hakkimizda" title="Hakkımızda | Emre Sigorta"><span class="fa fa-angle-right"></span> Hakkımızda</a></li>
+							<li><a href="?page=musteri-yorumnlari" title="Özellikler | Emre Sigorta"><span class="fa fa-angle-right"></span> Müşteri Yorumnları</a></li>
+							<li><a href="?page=trafik-kasko-sigortasi" title="Hizmetlerimiz | Emre Sigorta"><span class="fa fa-angle-right"></span> Hizmetlerimiz</a></li>
+							<li><a href="?page=sik-sorulan-sorular" title="Sık Sorulan Sorular | Emre Sigorta"><span class="fa fa-angle-right"></span> SSS</a></li>
+							<li><a href="?page=bilgi-merkezi" title="Blog | Emre Sigorta"><span class="fa fa-angle-right"></span> Bilgi Merkezi</a></li>
+							<li><a href="?page=iletisim" title="İletişim | Emre Sigorta"><span class="fa fa-angle-right"></span> İletişim</a></li>
 						</ul>
 					</div>
 					<div class="col-md-4 mb-4 mb-lg-0">
 						<h4 class="text-color-light font-weight-bold mb-3">Hizmetlerimiz</h4>
 						<ul class="list list-unstyled text-3-5">
-							<li><a href="#" title="Trafik Sigortası ve Kasko | Emre Sigorta" aria-label="Trafik Sigortası ve Kasko Sigortası Hizmetleri"> <span class="fa fa-car"></span> Trafik Sigortası, Kasko </a> </li>
-							<li><a href="#" title="Özel Sağlık Sigortası | Emre Sigorta" aria-label="Özel Sağlık Sigortası Hizmeti"> <span class="fa fa-user-md"></span> Özel Sağlık Sigortası </a></li>
-							<li><a href="#" title="Tamamlayıcı Sağlık Sigortası | Emre Sigorta" aria-label="Tamamlayıcı Sağlık Sigortası Hizmeti"> <span class="fa fa-heartbeat"></span> Tamamlayıcı Sağlık Sigortası </a></li>
-							<li><a href="#" title="DASK, Konut ve Yangın Sigortası | Emre Sigorta" aria-label="DASK, Konut ve Yangın Sigortası Hizmeti"> <span class="fa fa-home"></span> DASK, Konut ve Yangın Sigortası </a></li>
-							<li><a href="#" title="İşyeri Sigortası | Emre Sigorta" aria-label="İşyeri Sigortası Hizmeti"> <span class="fa fa-briefcase"></span> İşyeri Sigortası </a></li>
-							<li><a href="#" title="Seyahat Sağlık Sigortası | Emre Sigorta" aria-label="Seyahat Sağlık Sigortası Hizmeti"> <span class="fa fa-plane"></span> Seyahat Sağlık Sigortası </a></li>
+							<li><a href="?page=trafik-kasko-sigortasi" title="Trafik Sigortası ve Kasko | Emre Sigorta" aria-label="Trafik Sigortası ve Kasko Sigortası Hizmetleri"> <span class="fa fa-car"></span> Trafik Sigortası, Kasko </a> </li>
+							<li><a href="?page=ozel-saglik-sigortasi" title="Özel Sağlık Sigortası | Emre Sigorta" aria-label="Özel Sağlık Sigortası Hizmeti"> <span class="fa fa-user-md"></span> Özel Sağlık Sigortası </a></li>
+							<li><a href="?page=tamamlayici-saglik-sigortasi" title="Tamamlayıcı Sağlık Sigortası | Emre Sigorta" aria-label="Tamamlayıcı Sağlık Sigortası Hizmeti"> <span class="fa fa-heartbeat"></span> Tamamlayıcı Sağlık Sigortası </a></li>
+							<li><a href="?page=dask-konut-yangin-sigortasi" title="DASK, Konut ve Yangın Sigortası | Emre Sigorta" aria-label="DASK, Konut ve Yangın Sigortası Hizmeti"> <span class="fa fa-home"></span> DASK, Konut ve Yangın Sigortası </a></li>
+							<li><a href="?page=isyeri-sigortasi" title="İşyeri Sigortası | Emre Sigorta" aria-label="İşyeri Sigortası Hizmeti"> <span class="fa fa-briefcase"></span> İşyeri Sigortası </a></li>
+							<li><a href="?page=seyahat-saglik-sigortasi" title="Seyahat Sağlık Sigortası | Emre Sigorta" aria-label="Seyahat Sağlık Sigortası Hizmeti"> <span class="fa fa-plane"></span> Seyahat Sağlık Sigortası </a></li>
 						</ul>
 					</div>
 					<div class="col-md-4 mb-4 mb-lg-0">
 						<h4 class="text-color-light font-weight-bold mb-3">Blog</h4>
-						<a href="#"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Trafik Sigortası</span></a>
-						<a href="#"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Kasko</span></a>
-						<a href="#"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">İMM</span></a>
-						<a href="#"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Konut Sigortası</span></a>
-						<a href="#"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">TSS</span></a>
-						<a href="#"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Seyahat Sağlık</span></a>
-						<a href="#"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Yük Kaskosu</span></a>
-						<a href="#"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">İşyeri Sigortası</span></a>
-						<a href="#"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Dask</span></a>
+						<a href="?page=trafik-kasko-sigortasi"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Trafik Sigortası</span></a>
+						<a href="?page=ihtiyari-mali-sorumluluk-sigortasi"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Kasko</span></a>
+						<a href="?page=trafik-kasko-sigortasi"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">İMM</span></a>
+						<a href="dask-konut-yangin-sigortasi"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Konut Sigortası</span></a>
+						<a href="?page=tamamlayici-saglik-sigortasi"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">TSS</span></a>
+						<a href="?page=seyahat-saglik-sigortasi"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Seyahat Sağlık</span></a>
+						<a href="?page=nakliyat-sigortasi"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Yük Kaskosu</span></a>
+						<a href="?page=isyeri-sigortasi"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">İşyeri Sigortası</span></a>
+						<a href="dask-konut-yangin-sigortasi"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Dask</span></a>
 					</div>
 				</div>
 				<div class="row">

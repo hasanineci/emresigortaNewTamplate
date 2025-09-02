@@ -377,7 +377,7 @@
 
 
 
-<section id="about">
+<section id="about" class="my-5">
     <div class="bg-color-dark p-relative z-index-1 custom-section-1 bg-position-center bg-size-cover lazyload"
         style="background-image: url(assets/img/backgrounds/emresigorta-background-1.jpg);"
         aria-label="Emre Sigorta kurumsal sigorta çözümleri arka plan görseli"
@@ -424,7 +424,6 @@
             </div>
         </div>
     </div>
-
 
     <div class="container py-5">
         <div class="row pt-5 mt-3">
@@ -589,85 +588,100 @@
             </span>
         </div>
     </div>
-    <div class="px-5 px-lg-0">
-        <div class="container py-1">
-            <div class="row py-5 my-3">
-                <div class="col text-center pt-5">
+</section>
 
-                    <h3 class="text-9 text-xl-11 line-height-3 text-transform-none font-weight-semibold mb-4 mb-lg-3 mb-xl-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Loved by people
-                        <a data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-custom-class="custom-popover-1" data-bs-placement="top" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." tabindex="0">
-                            <span class="d-inline-block mx-2 custom-avatar-1">
-                                <img src="img/avatars/avatar.jpg" class="rounded-circle img-fluid" alt="">
-                                <span class="custom-avatar-1-info d-none d-lg-inline-block appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
-                                    <span class="opacity-5">
-                                        <img width="30" src="img/demos/creative-agency-2/svg/arrow-thin.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': ''}" /> hover/click me </span>
+<section class="section section-dark border-0 m-0" data-appear-animation="fadeIn">
+    <div class="container">
+
+        <div class="row pt-5">
+            <div class="col">
+
+                <div class="row text-center pb-5">
+                    <div class="col-md-9 mx-md-auto">
+                        <div class="overflow-hidden mb-3">
+                            <h1 class="word-rotator slide font-weight-bold text-8 mb-0 appear-animation" data-appear-animation="maskUp">
+                                <span>Biz Emre Sigorta, Size</span>
+                                <span class="word-rotator-words bg-primary">
+                                    <b class="is-visible">Koruma</b>
+                                    <b>Güvence</b>
+                                    <b>Çözümler</b>
                                 </span>
-                            </span>
-                        </a>check out how we help <br>
-                        <a data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-custom-class="custom-popover-1" data-bs-placement="top" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." tabindex="0">
-                            <span class="d-inline-block mx-2 custom-avatar-1">
-                                <img src="img/avatars/avatar-2.jpg" class="rounded-circle img-fluid" alt="">
-                            </span>
-                        </a>customers across the <a data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-custom-class="custom-popover-1" data-bs-placement="top" data-bs-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." tabindex="0">
-                            <span class="d-inline-block mx-2 custom-avatar-1">
-                                <img src="img/avatars/avatar-3.jpg" class="rounded-circle img-fluid" alt="">
-                            </span>
-                        </a>globe.
-                    </h3>
+                                <span> Sunuyoruz</span>
+                            </h1>
+                        </div>
+                        <div class="overflow-hidden mb-3">
+                            <p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
+                                Yılların tecrübesi ve güçlü çözüm ortaklarımızla; hayat, araç, konut ve iş yeri sigortalarında güvenilir ve hızlı hizmet sunuyoruz. Siz değerli müşterilerimizin geleceğini güvence altına almak için buradayız.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section section-height-3 bg-color-grey m-0 border-0">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 pb-sm-4 pb-lg-0 pe-lg-5 mb-sm-5 mb-lg-0">
+                <h2 class="text-color-dark font-weight-normal text-6 mb-2">Biz <strong class="font-weight-extra-bold">kimiz?</strong></h2>
+                <p class="lead">Emre Sigorta, 2022 yılında kurulmuş olup, bireysel ve kurumsal müşterilerine güvenilir, hızlı ve çözüm odaklı sigorta hizmetleri sunmaktadır.</p>
+                <p class="pe-5 me-5">Trafik, Kasko, Sağlık, Konut ve İşyeri sigortaları başta olmak üzere geniş bir ürün portföyüne sahip olan Emre Sigorta, müşteri odaklı yaklaşımıyla sektörde güvenin adresi olmaya devam etmektedir.</p>
+                <ul>
+                    <li><strong>Kurumsal Güven:</strong> Müşteri memnuniyeti odaklı hizmet anlayışı.</li>
+                    <li><strong>Profesyonel Destek:</strong> Her alanda sigorta danışmanlığı.</li>
+                    <li><strong>Çözüm Odaklı:</strong> Hızlı ve güvenilir işlem süreçleri.</li>
+                </ul>
+            </div>
+            <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-md-4 offset-lg-2 position-relative mt-sm-5">
+                <img src="assets/img/about/emresigorta-about-1.jpg" class="img-fluid rounded appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="300" alt="Emre Sigorta Trafik Sigortası" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-dark border-0 m-0 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': -150}">
+    <div class="container">
+        <div class="row counters counters-sm pb-4 pt-3">
+            <div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                <div class="counter text-center">
+                    <span class="fa fa-user fa-2x mb-3 text-primary"></span>
+                    <strong class="text-color-light font-weight-extra-bold" data-to="50000" data-append="+">0</strong>
+                    <label class="text-4 mt-1 text-color-light">Mutlu Müşteriler</label>
                 </div>
             </div>
-            <div class="row py-5 my-3">
-                <div class="col text-center custom-projects-1">
-
-                    <div class="row border-top">
-                        <div class="col-lg-2 order-3 order-lg-0 py-4 border-end ps-0 pe-0 pe-lg-4 m-0 text-start">
-                            <a href="#" class="btn btn-modern btn-dark w-100 font-weight-semibold text-capitalize text-3 py-3 anim-hover-translate-top-5px transition-2ms mb-5 mb-lg-0"><span class="px-4 d-block ws-nowrap">View Online <i class="fas fa-arrow-right rotate-l-45 ms-2"></i></span></a>
-                        </div>
-                        <div class="col-lg-6 py-4 border-end px-0 px-lg-4 m-0 text-start">
-                            <h3 class="text-8 text-transform-none font-weight-semibold mb-4 mt-5 mt-lg-3 pt-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Okler Themes</h3>
-                            <p class="text-4-5 line-height-7 text-dark pb-1 mb-4 mb-lg-2 mb-xl-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet leo acun volutpat. Suspendisse hendrerit. </p>
-                        </div>
-                        <div class="col-lg-4 p-0 ps-lg-4">
-                            <a href="#">
-                                <img src="img/demos/creative-agency-2/projects/project-1.jpg" loading="lazy" class="img-fluid my-lg-4" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row border-top">
-                        <div class="col-lg-2 order-3 order-lg-0 py-4 border-end ps-0 pe-0 pe-lg-4 m-0 text-start">
-                            <a href="#" class="btn btn-modern btn-dark w-100 font-weight-semibold text-capitalize text-3 py-3 anim-hover-translate-top-5px transition-2ms mb-5 mb-lg-0"><span class="px-4 d-block ws-nowrap">View Online <i class="fas fa-arrow-right rotate-l-45 ms-2"></i></span></a>
-                        </div>
-                        <div class="col-lg-6 py-4 border-end px-0 px-lg-4 m-0 text-start">
-                            <h3 class="text-8 text-transform-none font-weight-semibold mb-4 mt-5 mt-lg-3 pt-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Envato</h3>
-                            <p class="text-4-5 line-height-7 text-dark pb-1 mb-4 mb-lg-2 mb-xl-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a elit siel efficitur fel. </p>
-                        </div>
-                        <div class="col-lg-4 p-0 ps-lg-4">
-                            <a href="#">
-                                <img src="img/demos/creative-agency-2/projects/project-2.jpg" loading="lazy" class="img-fluid my-lg-4" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row border-top border-bottom">
-                        <div class="col-lg-2 order-3 order-lg-0 py-4 border-end ps-0 pe-0 pe-lg-4 m-0 text-start">
-                            <a href="#" class="btn btn-modern btn-dark w-100 font-weight-semibold text-capitalize text-3 py-3 anim-hover-translate-top-5px transition-2ms mb-5 mb-lg-0"><span class="px-4 d-block ws-nowrap">View Online <i class="fas fa-arrow-right rotate-l-45 ms-2"></i></span></a>
-                        </div>
-                        <div class="col-lg-6 py-4 border-end px-0 px-lg-4 m-0 text-start">
-                            <h3 class="text-8 text-transform-none font-weight-semibold mb-4 mt-5 mt-lg-3 pt-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Porto Template</h3>
-                            <p class="text-4-5 line-height-7 text-dark pb-1 mb-4 mb-lg-2 mb-xl-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur felis ultrices non. Cras a elit sit amet leo acun volutpehicula leo, vel efficitur fel. </p>
-                        </div>
-                        <div class="col-lg-4 p-0 ps-lg-4">
-                            <a href="#">
-                                <img src="img/demos/creative-agency-2/projects/project-3.jpg" loading="lazy" class="img-fluid my-lg-4" alt="">
-                            </a>
-                        </div>
-                    </div>
-
+            <div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                <div class="counter text-center">
+                    <span class="fa fa-briefcase fa-2x mb-3 text-primary"></span>
+                    <strong class="text-color-light font-weight-extra-bold" data-to="10" data-append="+">0</strong>
+                    <label class="text-4 mt-1 text-color-light">İş Hayatındaki Yıllar</label>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-5 mb-sm-0">
+                <div class="counter text-center">
+                    <span class="fa fa-file-alt fa-2x mb-3 text-primary"></span>
+                    <strong class="text-color-light font-weight-extra-bold" data-to="17800" data-append="+">0</strong>
+                    <label class="text-4 mt-1 text-color-light">Çözümlenen Poliçeler</label>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="counter text-center">
+                    <span class="fa fa-shield-alt fa-2x mb-3 text-primary"></span>
+                    <strong class="text-color-light font-weight-extra-bold" data-to="352" data-append="+">0</strong>
+                    <label class="text-4 mt-1 text-color-light">Güvence Altına Alınan Hayatlar</label>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
+
+
+
 
 <section id="numbers">
     <div class="container bg-color-light p-relative z-index-2 py-1">

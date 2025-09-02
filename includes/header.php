@@ -34,7 +34,7 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li><a class="nav-link active" href="?page=anasayfa" title="Ana Sayfa">Anasayfa</a></li>
-                                        <li><a class="nav-link" href="?page=hakkımızda" title="Hakkımızda">Hakkımızda</a></li>
+                                        <li><a class="nav-link" href="?page=hakkimizda" title="Hakkımızda">Hakkımızda</a></li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#" title="Sigorta Hizmetleri">
                                                 Sigorta Hizmetlerimiz
@@ -47,6 +47,7 @@
                                                 <li><a class="dropdown-item" href="?page=konut-dask-sigortasi">Konut ve DASK Sigortası</a></li>
                                                 <li><a class="dropdown-item" href="?page=isyeri-sigortasi">İşyeri Sigortası</a></li>
                                                 <li><a class="dropdown-item" href="?page=seyahat-saglik-sigortasi">Seyahat Sağlık Sigortası</a></li>
+                                                <li><a class="dropdown-item" href="?page=nakliyat-sigortasi">Nakliyat Sigortası</a></li>
                                                 <li><a class="dropdown-item" href="?page=-ihtiyari-mali-mesuliyet-imm">İhtiyari Mali Mesuliyet (İMM)</a></li>
                                             </ul>
                                         </li>

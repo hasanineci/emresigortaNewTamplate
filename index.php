@@ -65,14 +65,12 @@ if (array_key_exists($page, $allowed_pages)) {
     <!-- Theme CSS -->
     <link rel="stylesheet" href="assets/css/theme.css">
     <link rel="stylesheet" href="assets/css/theme-elements.css">
-    <link rel="stylesheet" href="assets/css/theme-blog.css">
-    <link rel="stylesheet" href="assets/css/theme-shop.css">
 
     <!-- Demo CSS -->
-    <link rel="stylesheet" href="assets/css/demos/demo-creative-agency-2.css">
+    <link rel="stylesheet" href="assets/css/demos/demo.css">
 
     <!-- Skin CSS -->
-    <link id="skinCSS" rel="stylesheet" href="assets/css/skins/skin-creative-agency-2.css">
+    <link id="skinCSS" rel="stylesheet" href="assets/css/skins/skin-color.css">
 
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
