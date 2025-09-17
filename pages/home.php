@@ -377,7 +377,7 @@
 
 
 
-<section id="about" class="my-5">
+<section id="about" class="">
     <div class="bg-color-dark p-relative z-index-1 custom-section-1 bg-position-center bg-size-cover lazyload"
         style="background-image: url(assets/img/backgrounds/emresigorta-background-1.jpg);"
         aria-label="Emre Sigorta kurumsal sigorta çözümleri arka plan görseli"
@@ -413,11 +413,11 @@
                     <div class="d-block appear-animation pt-4"
                         data-appear-animation="fadeInUpShorter"
                         data-appear-animation-delay="300">
-                        <a href="#"
+                        <a href="?page=iletisim"
                             class="btn btn-modern btn-primary text-dark text-4 text-capitalize custom-btn-1 py-1 anim-hover-translate-top-5px transition-2ms"
                             title="Emre Sigorta ile hemen iletişime geçin"
                             aria-label="Emre Sigorta iletişim">
-                            İletişime Geçin</i>
+                            <span class="fa fa-headset fa-5x d-block p-4"></span>
                         </a>
                     </div>
                 </div>
@@ -425,6 +425,196 @@
         </div>
     </div>
 
+    <div class="section section-height-3 bg-color-grey m-0 border-0">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-xl-8 text-center">
+                    <div class="overflow-hidden">
+                        <h2 class="font-weight-bold text-color-dark line-height-1 mb-1 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">En Popüler Sigorta Hizmetleri</h2>
+                    </div>
+                    <div class="d-inline-block custom-divider divider divider-kırmızı divider-small my-2">
+                        <hr class="my-0 appear-animation color-danger" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="600">
+                    </div>
+                    <p class="font-weight-light text-3-5 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
+                        En çok tercih edilen sigorta hizmetlerimiz ile hayatınızı güvence altına alın. Hızlı ve güvenilir çözümler için hemen başvurun.
+                    </p>
+                </div>
+            </div>
+            <div class="row row-gutter-sm mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
+                <div class="col-sm-6 col-lg-3 text-center mb-4 mb-lg-0 d-flex">
+                    <div class="py-5 custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten w-100 d-flex flex-column justify-content-center align-items-center h-100">
+                        <div class="thumb-info-wrapper mb-2">
+                            <span class="fa fa-car-crash fa-3x text-primary"></span>
+                        </div>
+                        <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Yol Yardımı Sigortası</h3>
+                        <p class="text-3 mt-2 px-2">Aracınız yolda kaldığında 7/24 destek ve çekici hizmeti.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 text-center mb-4 mb-lg-0 d-flex">
+                    <div class="py-5 custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten w-100 d-flex flex-column justify-content-center align-items-center h-100">
+                        <div class="thumb-info-wrapper mb-2">
+                            <span class="fa fa-heartbeat fa-3x text-danger"></span>
+                        </div>
+                        <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Sağlık Sigortası</h3>
+                        <p class="text-3 mt-2 px-2">Size ve ailenize özel sağlık güvencesi. Uygun fiyatlarla sağlık harcamalarınızı güvence altına alın.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 text-center mb-4 mb-sm-0 d-flex">
+                    <div class="py-5 custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten w-100 d-flex flex-column justify-content-center align-items-center h-100">
+                        <div class="thumb-info-wrapper mb-2">
+                            <span class="fa fa-home fa-3x text-success"></span>
+                        </div>
+                        <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">Konut Sigortası</h3>
+                        <p class="text-3 mt-2 px-2">Evinizi yangın, hırsızlık ve doğal afetlere karşı koruyun.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 text-center d-flex">
+                    <div class="py-5 custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten w-100 d-flex flex-column justify-content-center align-items-center h-100">
+                        <div class="thumb-info-wrapper mb-2">
+                            <span class="fa fa-briefcase fa-3x text-mavi"></span>
+                        </div>
+                        <h3 class="text-transform-none font-weight-bold text-5 mt-2 mb-0">İşyeri Sigortası</h3>
+                        <p class="text-3 mt-2 px-2">İş yerinizi ve çalışanlarınızı her türlü riske karşı güvence altına alın.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="section section-dark border-0 m-0" data-appear-animation="fadeIn">
+    <div class="container">
+
+        <div class="row mt-0">
+            <div class="col">
+
+                <div class="row text-center pb-5">
+                    <div class="col-md-9 mx-md-auto">
+                        <div class="overflow-hidden mb-3">
+                            <h1 class="word-rotator slide font-weight-bold text-8 mb-0 appear-animation" data-appear-animation="maskUp">
+                                <span>Biz Emre Sigorta, Size</span>
+                                <span class="word-rotator-words bg-primary">
+                                    <b class="is-visible">Koruma</b>
+                                    <b>Güvence</b>
+                                    <b>Çözümler</b>
+                                </span>
+                                <span> Sunuyoruz</span>
+                            </h1>
+                        </div>
+                        <div class="overflow-hidden mb-3">
+                            <p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
+                                Yılların tecrübesi ve güçlü çözüm ortaklarımızla; hayat, araç, konut ve iş yeri sigortalarında güvenilir ve hızlı hizmet sunuyoruz. Siz değerli müşterilerimizin geleceğini güvence altına almak için buradayız.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section section-height-3 bg-color-grey m-0 border-0">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 pb-sm-4 pb-lg-0 pe-lg-5 mb-sm-5 mb-lg-0">
+                <h2 class="text-color-dark font-weight-normal text-6 mb-2">Biz <strong class="font-weight-extra-bold">kimiz?</strong></h2>
+                <p class="lead">Emre Sigorta, 2022 yılında kurulmuş olup, bireysel ve kurumsal müşterilerine güvenilir, hızlı ve çözüm odaklı sigorta hizmetleri sunmaktadır.</p>
+                <p class="pe-5 me-5">Trafik, Kasko, Sağlık, Konut ve İşyeri sigortaları başta olmak üzere geniş bir ürün portföyüne sahip olan Emre Sigorta, müşteri odaklı yaklaşımıyla sektörde güvenin adresi olmaya devam etmektedir.</p>
+                <ul>
+                    <li><strong>Kurumsal Güven:</strong> Müşteri memnuniyeti odaklı hizmet anlayışı.</li>
+                    <li><strong>Profesyonel Destek:</strong> Her alanda sigorta danışmanlığı.</li>
+                    <li><strong>Çözüm Odaklı:</strong> Hızlı ve güvenilir işlem süreçleri.</li>
+                </ul>
+            </div>
+            <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-md-4 offset-lg-2 position-relative mt-sm-5">
+                <img src="assets/img/about/emresigorta-about-1.jpg" class="img-fluid rounded appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="300" alt="Emre Sigorta Trafik Sigortası" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-dark border-0 m-0 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': -150}">
+    <div class="container">
+        <div class="row counters counters-sm pb-4 pt-3">
+            <div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                <div class="counter text-center">
+                    <span class="fa fa-user fa-2x mb-3 text-primary"></span>
+                    <strong class="text-color-light font-weight-extra-bold" data-to="50000" data-append="+">0</strong>
+                    <label class="text-4 mt-1 text-color-light">Mutlu Müşteriler</label>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                <div class="counter text-center">
+                    <span class="fa fa-briefcase fa-2x mb-3 text-primary"></span>
+                    <strong class="text-color-light font-weight-extra-bold" data-to="10" data-append="+">0</strong>
+                    <label class="text-4 mt-1 text-color-light">İş Hayatındaki Yıllar</label>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-5 mb-sm-0">
+                <div class="counter text-center">
+                    <span class="fa fa-file-alt fa-2x mb-3 text-primary"></span>
+                    <strong class="text-color-light font-weight-extra-bold" data-to="17800" data-append="+">0</strong>
+                    <label class="text-4 mt-1 text-color-light">Çözümlenen Poliçeler</label>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="counter text-center">
+                    <span class="fa fa-shield-alt fa-2x mb-3 text-primary"></span>
+                    <strong class="text-color-light font-weight-extra-bold" data-to="352" data-append="+">0</strong>
+                    <label class="text-4 mt-1 text-color-light">Güvence Altına Alınan Hayatlar</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-height-3 bg-kırmızı border-0 m-0 mb-0">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-xl-7 text-center text-lg-start mb-4 mb-lg-0">
+                <h2 class="text-color-light font-weight-medium text-3-5 line-height-2 line-height-sm-1 ls-0 mb-2 mb-lg-2">Güvenilir ve Hızlı Sigorta Hizmeti mi Arıyorsunuz?</h2>
+                <h3 class="font-weight-bold text-color-light text-transform-none text-8 line-height-2 line-height-lg-1 mb-1">Emre Sigorta ile En Uygun Sigorta Çözümleri</h3>
+                <p class="font-weight-bold text-color-light text-4 opacity-7 mb-0">Hemen online form ile teklif alın, geleceğinizi güvence altına alın.</p>
+            </div>
+            <div class="col-lg-6 col-xl-5">
+                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between">
+                    <div class="feature-box align-items-center mb-3 mb-lg-0">
+                        <div class="feature-box-icon bg-transparent"><i class="fa fa-phone text-8 text-color-light"></i></div>
+                        <div class="feature-box-info line-height-2 ps-1">
+                            <span class="d-block text-1 font-weight-semibold text-color-light mb-1">Bizi Arayın</span>
+                            <strong class="text-4-5">
+                                <a href="tel:+905415148515" class="text-color-light text-decoration-none" title="Emre Sigorta Telefon Numarası" aria-label="Emre Sigorta Telefon Numarası">+90 (541) 514 85 15</a>
+                            </strong>
+                        </div>
+                    </div>
+                    <a href="?page=iletisim" class="btn btn-light btn-outline rounded font-weight-bold text-color-light text-color-hover-dark bg-color-hover-danger btn-px-5 btn-py-3" title="Emre Sigorta Teklif Al" aria-label="Emre Sigorta Teklif Al">
+                        Teklif Alın
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section bg-transparent position-relative border-0 m-0 p-0">
+    <div class="lightbox">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-md-3 px-0"><img class="img-fluid rounded-0" src="assets/img/poster/emresigorta-poster-1.jpg" alt="" style="width: 100%;" /></div>
+                <div class="col-6 col-md-3 px-0"><img class="img-fluid rounded-0" src="assets/img/poster/emresigorta-poster-2.jpg" alt="" style="width: 100%;" /></div>
+                <div class="col-6 col-md-3 px-0"><img class="img-fluid rounded-0" src="assets/img/poster/emresigorta-poster-3.jpg" alt="" style="width: 100%;" /></div>
+                <div class="col-6 col-md-3 px-0"><img class="img-fluid rounded-0" src="assets/img/poster/emresigorta-poster-4.jpg" alt="" style="width: 100%;" /></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="custom-page-content p-relative z-index-2 my-5 pb-5">
+    
     <div class="container py-5">
         <div class="row pt-5 mt-3">
             <div class="col text-center">
@@ -443,7 +633,8 @@
             </div>
         </div>
     </div>
-    <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="350">
+
+    <div class="appear-animation pb-5" data-appear-animation="fadeIn" data-appear-animation-delay="350">
         <div class="marquee custom-marquee-1 pt-4 d-flex" data-duration="40000" data-gap="10" data-duplicated="true" data-startVisible="true">
             <span class="d-flex align-items-center" data-clone-element="2">
                 <div class="px-5 py-1">
@@ -587,157 +778,5 @@
                 </div>
             </span>
         </div>
-    </div>
-</section>
-
-<section class="section section-dark border-0 m-0" data-appear-animation="fadeIn">
-    <div class="container">
-
-        <div class="row pt-5">
-            <div class="col">
-
-                <div class="row text-center pb-5">
-                    <div class="col-md-9 mx-md-auto">
-                        <div class="overflow-hidden mb-3">
-                            <h1 class="word-rotator slide font-weight-bold text-8 mb-0 appear-animation" data-appear-animation="maskUp">
-                                <span>Biz Emre Sigorta, Size</span>
-                                <span class="word-rotator-words bg-primary">
-                                    <b class="is-visible">Koruma</b>
-                                    <b>Güvence</b>
-                                    <b>Çözümler</b>
-                                </span>
-                                <span> Sunuyoruz</span>
-                            </h1>
-                        </div>
-                        <div class="overflow-hidden mb-3">
-                            <p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
-                                Yılların tecrübesi ve güçlü çözüm ortaklarımızla; hayat, araç, konut ve iş yeri sigortalarında güvenilir ve hızlı hizmet sunuyoruz. Siz değerli müşterilerimizin geleceğini güvence altına almak için buradayız.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section class="section section-height-3 bg-color-grey m-0 border-0">
-    <div class="container">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-lg-6 pb-sm-4 pb-lg-0 pe-lg-5 mb-sm-5 mb-lg-0">
-                <h2 class="text-color-dark font-weight-normal text-6 mb-2">Biz <strong class="font-weight-extra-bold">kimiz?</strong></h2>
-                <p class="lead">Emre Sigorta, 2022 yılında kurulmuş olup, bireysel ve kurumsal müşterilerine güvenilir, hızlı ve çözüm odaklı sigorta hizmetleri sunmaktadır.</p>
-                <p class="pe-5 me-5">Trafik, Kasko, Sağlık, Konut ve İşyeri sigortaları başta olmak üzere geniş bir ürün portföyüne sahip olan Emre Sigorta, müşteri odaklı yaklaşımıyla sektörde güvenin adresi olmaya devam etmektedir.</p>
-                <ul>
-                    <li><strong>Kurumsal Güven:</strong> Müşteri memnuniyeti odaklı hizmet anlayışı.</li>
-                    <li><strong>Profesyonel Destek:</strong> Her alanda sigorta danışmanlığı.</li>
-                    <li><strong>Çözüm Odaklı:</strong> Hızlı ve güvenilir işlem süreçleri.</li>
-                </ul>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-4 offset-md-4 offset-lg-2 position-relative mt-sm-5">
-                <img src="assets/img/about/emresigorta-about-1.jpg" class="img-fluid rounded appear-animation" data-appear-animation="expandIn" data-appear-animation-delay="300" alt="Emre Sigorta Trafik Sigortası" />
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section section-dark border-0 m-0 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': -150}">
-    <div class="container">
-        <div class="row counters counters-sm pb-4 pt-3">
-            <div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
-                <div class="counter text-center">
-                    <span class="fa fa-user fa-2x mb-3 text-primary"></span>
-                    <strong class="text-color-light font-weight-extra-bold" data-to="50000" data-append="+">0</strong>
-                    <label class="text-4 mt-1 text-color-light">Mutlu Müşteriler</label>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
-                <div class="counter text-center">
-                    <span class="fa fa-briefcase fa-2x mb-3 text-primary"></span>
-                    <strong class="text-color-light font-weight-extra-bold" data-to="10" data-append="+">0</strong>
-                    <label class="text-4 mt-1 text-color-light">İş Hayatındaki Yıllar</label>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 mb-5 mb-sm-0">
-                <div class="counter text-center">
-                    <span class="fa fa-file-alt fa-2x mb-3 text-primary"></span>
-                    <strong class="text-color-light font-weight-extra-bold" data-to="17800" data-append="+">0</strong>
-                    <label class="text-4 mt-1 text-color-light">Çözümlenen Poliçeler</label>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class="counter text-center">
-                    <span class="fa fa-shield-alt fa-2x mb-3 text-primary"></span>
-                    <strong class="text-color-light font-weight-extra-bold" data-to="352" data-append="+">0</strong>
-                    <label class="text-4 mt-1 text-color-light">Güvence Altına Alınan Hayatlar</label>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-<section id="numbers">
-    <div class="container bg-color-light p-relative z-index-2 py-1">
-        <div class="row pt-5 pb-3">
-            <div class="col-lg-9">
-                <h3 class="text-9 text-xl-11 line-height-3 text-transform-none font-weight-semibold mb-4 mb-lg-3 mb-xl-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Excellent results for over more than 10 years in the creative market.</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col pb-5">
-                <div class="carousel-half-full-width-wrapper carousel-half-full-width-right custom-carousel-1 pb-5 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="450">
-                    <div class="owl-carousel owl-theme carousel-half-full-width-right mb-5" data-plugin-options="{'responsive': {'0': {'items': 1}, '768': {'items': 3}, '992': {'items': 4}, '1200': {'items': 4}}, 'nav': false, 'dots': false, 'margin': 20, 'autoplay': true, 'autoplayTimeout': 4000, 'loop': true}">
-                        <div>
-                            <div class="card border-0 border-radius-0 bg-color-dark">
-                                <div class="card-body">
-                                    <h4 class="card-title mb-1 custom-font-size-1 font-weight-semi-bold text-light">345+</h4>
-                                    <p class="text-4-5 line-height-7 text-light pb-0 mt-5 mb-0">Cras a elit sit amet leo accumsan volutpat.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="card border-0 border-radius-0 bg-color-dark">
-                                <div class="card-body">
-                                    <h4 class="card-title mb-1 custom-font-size-1 font-weight-semi-bold text-light">1000+</h4>
-                                    <p class="text-4-5 line-height-7 text-light pb-0 mt-5 mb-0">A crasa elit sit amet leo accumsan volutpat.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="card border-0 border-radius-0 bg-color-dark">
-                                <div class="card-body">
-                                    <h4 class="card-title mb-1 custom-font-size-1 font-weight-semi-bold text-light">123+</h4>
-                                    <p class="text-4-5 line-height-7 text-light pb-0 mt-5 mb-0">Elit cras a elit sit amet leo accumsan volutpat.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="card border-0 border-radius-0 bg-color-dark">
-                                <div class="card-body">
-                                    <h4 class="card-title mb-1 custom-font-size-1 font-weight-semi-bold text-light">15+</h4>
-                                    <p class="text-4-5 line-height-7 text-light pb-0 mt-5 mb-0">Sit cras a elit sit amet leo accumsan volutpat.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="card border-0 border-radius-0 bg-color-dark">
-                                <div class="card-body">
-                                    <h4 class="card-title mb-1 custom-font-size-1 font-weight-semi-bold text-light">45+</h4>
-                                    <p class="text-4-5 line-height-7 text-light pb-0 mt-5 mb-0">Lorem a elit sit amet leo accumsan volutpat.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
 </section>
