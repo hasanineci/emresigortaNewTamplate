@@ -414,10 +414,10 @@
                         data-appear-animation="fadeInUpShorter"
                         data-appear-animation-delay="300">
                         <a href="?page=iletisim"
-                            class="btn btn-modern btn-primary text-dark text-4 text-capitalize custom-btn-1 py-1 anim-hover-translate-top-5px transition-2ms"
+                            class="btn btn-primary text-dark text-4 text-capitalize custom-btn-1 p-5 anim-hover-translate-top-5px transition-2ms"
                             title="Emre Sigorta ile hemen iletişime geçin"
                             aria-label="Emre Sigorta iletişim">
-                            <span class="fa fa-headset fa-5x d-block p-4"></span>
+                            <span class="fa-solid fa-phone-volume fa-5x d-block"></span>
                         </a>
                     </div>
                 </div>

@@ -1,11 +1,11 @@
-<footer id="footer" class="p-relative bg-dark border-top-0">
+<footer id="footer" class="p-relative border-top-0">
 	<div class="container pt-5">
-		<div class="row py-5">
+		<div class="row py-5 pb-0">
 
-			<div class="position-absolute vw-100 start-0 end-0 top-0 bottom-0 m-0 p-0 vc_column_container col-md-12">
+			<div class="position-absolute vw-100 start-0 end-0 top-0 bottom-0 m-0 p-0 vc_column_container col-md-12" style="z-index:0; pointer-events:none;">
 				<div class="wpb_wrapper vc_column-inner">
 					<div class="porto-ultimate-content-box-container mb-0 custom-el-1 position-absolute appear-animation fadeIn appear-animation-visible" data-appear-animation="fadeIn" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-						<div class="porto-ultimate-content-box porto_ucb_e35a9346cd70594d63c013acc42ebe9d" style="">
+						<div class="porto-ultimate-content-box porto_ucb_e35a9346cd70594d63c013acc42ebe9d">
 							<div class="wpb_single_image wpb_content_element vc_align_left wpb_content_element  vc_custom_1698815609299 wpb_custom_81a4f7ef9830bf958462581aa01150fb">
 								<div class="wpb_wrapper">
 									<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="porto-lazyload vc_single_image-img lazy-load-loaded" src="assets/img/svg/arrow-up-light.svg" data-oi="assets/img/svg/arrow-up-light.svg" width="140" height="140" alt="Arrow Up SVG Icon" title="ca2-arrow-up-light" loading="lazy"></div>
@@ -32,39 +32,9 @@
 				<a href="?page=home" class="text-decoration-none">
 					<img src="assets/img/logo/emre_sigorta_logo_beyaz.png" width="190" class="img-fluid mb-3" alt="Emre sigorta Logo" />
 				</a>
-				<ul class="list list-unstyled">
-					<p>
-						Emre Sigorta Aracılık Hizmetleri, 2022 yılında sektöre adım atmış olup, bireysel ve kurumsal müşterilerine güvenilir, hızlı ve çözüm odaklı sigorta hizmetleri sunmaktadır. Trafik, kasko, sağlık, konut ve işyeri sigortaları başta olmak üzere geniş bir ürün portföyüne sahiptir. Emre Sigorta, müşteri odaklı yaklaşımı ve etik hizmet anlayışıyla sigorta sektöründe sürdürülebilir güvenin adresidir.
-					</p>
-					<li class="d-flex align-items-center mb-4">
-						<a href="mailto:info@emresigorta.net" class="d-inline-flex align-items-center text-decoration-none text-color-light text-color-hover-primary font-weight-semibold text-4-5">info@emresigorta.net</a>
-					</li>
-					<li class="d-flex align-items-center mb-4">
-						<a href="tel:+905415148515" class="d-inline-flex align-items-center text-decoration-none text-color-light text-color-hover-primary font-weight-semibold text-4-5">+90 (541) 514 85 15</a>
-					</li>
-				</ul>
-				<ul class="social-icons social-icons-clean social-icons-medium mb-5">
-					<li class="social-icons-facebook">
-						<a href="http://www.facebook.com/" target="_blank" title="Facebook">
-							<i class="fab fa-facebook-f text-color-light"></i>
-						</a>
-					</li>
-					<li class="social-icons-x">
-						<a href="http://www.x.com/" target="_blank" title="X">
-							<i class="fab fa-x-twitter text-color-light"></i>
-						</a>
-					</li>
-					<li class="social-icons-instagram">
-						<a href="http://www.instagram.com/" target="_blank" title="Instagram">
-							<i class="fab fa-instagram text-color-light"></i>
-						</a>
-					</li>
-					<li class="social-icons-linkedin">
-						<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
-							<i class="fab fa-linkedin text-color-light"></i>
-						</a>
-					</li>
-				</ul>
+				<p>
+					Emre Sigorta Aracılık Hizmetleri, 2022 yılında sektöre adım atmış olup, bireysel ve kurumsal müşterilerine güvenilir, hızlı ve çözüm odaklı sigorta hizmetleri sunmaktadır. Trafik, kasko, sağlık, konut ve işyeri sigortaları başta olmak üzere geniş bir ürün portföyüne sahiptir. Emre Sigorta, müşteri odaklı yaklaşımı ve etik hizmet anlayışıyla sigorta sektöründe sürdürülebilir güvenin adresidir.
+				</p>
 			</div>
 			<div class="col-lg-8 mt-lg-8 pt-lg-3">
 				<div class="row mb-5-5">
@@ -103,16 +73,77 @@
 						<a href="dask-konut-yangin-sigortasi"><span class="badge bg-dark--100 font-weight-normal text-2 badge-md anim-hover-translate-top-5px transition-2ms me-2 mb-2">Dask</span></a>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col">
-						<p>Emre Sigorta bültenine abone olun, güncel kampanyalarımızdan ve sigorta dünyasındaki yeniliklerden ilk siz haberdar olun!</p>
-						<form class="newsletter-form mb-3" action="#" method="post" autocomplete="off">
-							<div class="input-group">
-								<input type="email" class="form-control" placeholder="E-posta adresiniz" aria-label="E-posta adresiniz" required style="max-width: 400px; width: 100%;">
-								<button class="btn btn-primary" type="submit">Abone Ol</button>
-							</div>
-						</form>
+			</div>
+
+			<hr class="bg-color-light opacity-1">
+
+			<div class="row py-5">
+				<div class="col-lg-3 mt-1 d-flex align-items-start">
+					<div class="me-3 mt-1">
+						<i class="fas fa-map-marker-alt fa-2x text-color-hover-light"></i>
 					</div>
+					<div>
+						<p class="mb-2 text-3-5 text-color-hover-light">
+							Bamyasuyu Mah. Göbeklitepe Ticaret Merkezi B Blok No:2/38<br>
+							Haliliye / Şanlıurfa
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 mt-1">
+					<ul class="list-unstyled mb-0">
+						<li class="mb-2">
+							<a href="mailto:info@emresigorta.net"
+							class="text-decoration-none text-color-gray text-color-hover-light font-weight-semibold text-3-5">
+								<i class="fas fa-envelope me-2"></i> info@emresigorta.net
+							</a>
+						</li>
+						<li>
+							<a href="tel:+905415148515"
+							class="text-decoration-none text-color-gray text-color-hover-light font-weight-semibold text-3-5">
+								<i class="fas fa-phone me-2"></i> +90 (541) 514 85 15
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-lg-3 mt-1">
+					<h4 class="text-color-grey text-color-hover-light font-weight-bold mb-3">
+						<i class="fas fa-clock me-2"></i> Çalışma Saatleri
+					</h4>
+					<ul class="list-unstyled text-3-5 mb-0">
+						<li class="text-color-hover-light"><i class="fas fa-calendar-day me-2"></i><strong>Hafta İçi:</strong> 08:00 - 19:00</li>
+						<li class="text-color-hover-light"><i class="fas fa-calendar me-2"></i><strong>Cumartesi:</strong> 09:30 - 17:00</li>
+						<li class="text-color-hover-light"><i class="fas fa-ban me-2"></i><strong>Pazar:</strong> Kapalı</li>
+					</ul>
+				</div>
+				
+				<div class="col-lg-3 mt-1">
+					<h4 class="text-color-grey text-color-hover-light font-weight-bold mb-3">
+						<i class="fas fa-clock me-2"></i> Bizi Takip Edin
+					</h4>
+					<ul class="social-icons social-icons-clean social-icons-medium">
+						<li class="social-icons-facebook me-4">
+							<a href="http://www.facebook.com/" target="_blank" title="Facebook">
+								<i class="fab fa-facebook-f fa-2x text-color-light"></i>
+							</a>
+						</li>
+						<li class="social-icons-x me-4">
+							<a href="http://www.x.com/" target="_blank" title="X">
+								<i class="fab fa-x-twitter fa-2x text-color-light"></i>
+							</a>
+						</li>
+						<li class="social-icons-instagram me-4">
+							<a href="http://www.instagram.com/" target="_blank" title="Instagram">
+								<i class="fab fa-instagram fa-2x text-color-light"></i>
+							</a>
+						</li>
+						<li class="social-icons-linkedin me-4">
+							<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+								<i class="fab fa-linkedin fa-2x text-color-light"></i>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -133,13 +164,13 @@
 	</div>
 	<div class="p-absolute custom-el-1 custom-el-pos-1">
 		<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="0">
-			<img src="img/demos/creative-agency-2/svg/arrow-up-light.svg" width="140">
+			<img src="assets/img/svg/arrow-up-light.svg" width="140">
 		</div>
 		<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
-			<img src="img/demos/creative-agency-2/svg/arrow-up-light.svg" width="140">
+			<img src="assets/img/svg/arrow-up-light.svg" width="140">
 		</div>
 		<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
-			<img src="img/demos/creative-agency-2/svg/arrow-up-light.svg" width="140">
+			<img src="assets/img/svg/arrow-up-light.svg" width="140">
 		</div>
 	</div>
 </footer>
