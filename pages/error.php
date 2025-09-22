@@ -50,7 +50,7 @@
                         <div class="row">
                             <div class="col-lg-6 offset-lg-1">
                                 <div class="page-not-found-main">
-                                    <h2 class="entry-title">404 <i class="fas fa-file"></i></h2>
+                                    <h2 class="entry-title">404 <i class="fa-solid fa-triangle-exclamation"></i></h2>
                                     <p>Üzgünüz, aradığınız sayfa bulunamadı.</p>
                                 </div>
                             </div>
