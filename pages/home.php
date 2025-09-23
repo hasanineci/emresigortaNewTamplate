@@ -1,3 +1,10 @@
+<?php
+$active_page = 'anasayfa';
+$page_description = 'Emre Sigorta, 2022 yılında kurulmuş güvenilir ve müşteri odaklı bir sigorta şirketidir. Trafik, kasko, sağlık, konut ve işyeri sigortası alanlarında uygun fiyatlı, hızlı ve kapsamlı çözümler sunar. Misyonumuz; Türkiye genelinde sigorta ihtiyaçlarınıza en iyi hizmeti sağlamak, vizyonumuz ise yenilikçi ve güvenilir sigorta çözümleriyle sektörde lider olmaktır.';
+$page_keywords = 'Emre Sigorta, sigorta, trafik sigortası, kasko, sağlık sigortası, konut sigortası, işyeri sigortası, tamamlayıcı sağlık, seyahat sağlık, ihtiyari mali mesuliyet, yol yardımı, uygun fiyatlı sigorta, hızlı sigorta, müşteri odaklı, güvenilir sigorta, sigorta şirketleri, online sigorta, sigorta teklif, poliçe, kurumsal sigorta, bireysel sigorta, 2022, misyon, vizyon, Türkiye sigorta, sigorta çözümleri, sigorta danışmanlığı, sigorta hizmetleri, sigorta başvurusu, sigorta avantajları, sigorta kampanyaları, sigorta acentesi, sigorta referansları';
+
+?>
+
 <section id="home" class="p-relative border-0 bg-quaternary overflow-hidden m-0 p-0 z-index-0">
     <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">

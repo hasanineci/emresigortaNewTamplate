@@ -25,6 +25,7 @@
                     </div>
                 </div>
 
+
                 <!-- Navigation -->
                 <div class="header-column justify-content-end">
                     <div class="header-row">
@@ -33,8 +34,8 @@
                             <div class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-text-capitalize header-nav-main-arrows">
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
-                                        <li><a class="nav-link active" href="?page=anasayfa" title="Ana Sayfa">Anasayfa</a></li>
-                                        <li><a class="nav-link" href="?page=hakkimizda" title="Hakkımızda">Hakkımızda</a></li>
+                                        <li><a class="nav-link <?php echo ($page_active == 'anasayfa') ? 'active' : ''; ?>" href="?page=anasayfa" title="Anasayfa">Anasayfa</a></li>
+                                        <li><a class="nav-link <?php echo ($page_active == 'hakkimizda') ? 'active' : ''; ?>" href="?page=hakkimizda" title="Hakkımızda">Hakkımızda</a></li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#" title="Sigorta Hizmetleri">
                                                 Sigorta Hizmetlerimiz
@@ -54,7 +55,7 @@
                                         <li><a class="nav-link" href="?page=musteri-yorumlari">Müşteri Yorumları</a></li>
                                         <li><a class="nav-link" href="?page=sik-sorulan-sorular">SSS</a></li>
                                         <li><a class="nav-link" href="?page=bilgi-merkezi">Bilgi Merkezi</a></li>
-                                        <li><a class="nav-link" href="?page=iletisim">İletişim</a></li>
+                                        <li><a class="nav-link <?php echo ($page_active == 'iletisim') ? 'active' : ''; ?>" href="?page=iletisim">İletişim</a></li>
                                     </ul>
                                 </nav>
                             </div>
