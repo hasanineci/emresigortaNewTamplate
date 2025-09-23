@@ -48,10 +48,10 @@
         </div>
         <div class="col-lg-6">
             <h2 class="fw-bold mb-3">Hakkımızda</h2>
-            <p>Emre Sigorta Aracılık Hizmetleri, 2022 yılında kurulmuş olup sektörde güvenilir ve yenilikçi çözümler sunmayı hedeflemektedir. 
-            Deneyimli ekibimiz, müşterilerimize ihtiyaçlarına uygun sigorta poliçeleri sunmaktadır.</p>
+            <p>Emre Sigorta Aracılık Hizmetleri, 2022 yılında kurulmuş olup sektörde güvenilir ve yenilikçi çözümler sunmayı hedeflemektedir.
+                Deneyimli ekibimiz, müşterilerimize ihtiyaçlarına uygun sigorta poliçeleri sunmaktadır.</p>
             <p>Vizyonumuz: Sigortacılıkta güvenin ve kalitenin adresi olmak.<br>
-            Misyonumuz: Müşterilerimizin geleceğini güvence altına almak ve huzurlu bir yaşam sunmak.</p>
+                Misyonumuz: Müşterilerimizin geleceğini güvence altına almak ve huzurlu bir yaşam sunmak.</p>
         </div>
     </div>
 </section>

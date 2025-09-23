@@ -156,8 +156,8 @@
 					<p class="text-start text-3-5 font-weight-semi-bold text-light mb-0">&copy; <?= date('Y') ?> Emre Sigorta Aracılık Hizmetleri. Tüm hakları saklıdır.</p>
 				</div>
 				<div class="col-lg-6 text-lg-end mt-4">
-					<a href="?page=kvk-privacy-policy" class="text-color-grey text-color-hover-primary">KVK & Gizlilik Politikası</a>
-					<a href="?page=terms-of-use" class="text-color-grey text-color-hover-primary ms-3">Kullanım Şartları</a>
+					<a href="?page=kvk-privacy-policy" class="text-color-grey text-color-hover-light">KVK & Gizlilik Politikası</a>
+					<a href="?page=terms-of-use" class="text-color-grey text-color-hover-light ms-3">Kullanım Şartları</a>
 				</div>
 			</div>
 		</div>
