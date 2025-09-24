@@ -357,7 +357,7 @@ include __DIR__ . '/../child/breadcrumb.php';
                         "Güven olmadan sigorta olmaz."
                     </blockquote>
                     <footer class="blockquote-footer mt-2" style="font-family: 'Dancing Script', cursive; font-size: 1.2rem;">
-                        Türk Atasözü
+                        Emre Sigorta Aracılık Hizmetleri
                     </footer>
                 </div>
             </div>

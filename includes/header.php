@@ -53,7 +53,7 @@
                                             </ul>
                                         </li>
                                         <li><a class="nav-link" href="?page=musteri-yorumlari">Müşteri Yorumları</a></li>
-                                        <li><a class="nav-link" href="?page=sik-sorulan-sorular">SSS</a></li>
+                                        <li><a class="nav-link <?php echo ($page_active == 'sik-sorulan-sorular') ? 'active' : ''; ?>" href="?page=sik-sorulan-sorular">SSS</a></li>
                                         <li><a class="nav-link" href="?page=bilgi-merkezi">Bilgi Merkezi</a></li>
                                         <li><a class="nav-link <?php echo ($page_active == 'iletisim') ? 'active' : ''; ?>" href="?page=iletisim">İletişim</a></li>
                                     </ul>

@@ -1,30 +1,55 @@
 <?php
-// Sayfa başlığı için varsayılan değer
-$pageTitle = "Emre Sigorta Aracılık Hizmetleri";
 
 // Geçerli sayfalar
 $allowed_pages = [
-    'anasayfa'     => ['file' => 'pages/home.php',     'title' => 'Anasayfa'],
-    'hakkimizda'   => ['file' => 'pages/about.php',   'title' => 'Hakkımızda'],
-    'hizmetler'    => ['file' => 'pages/services.php',    'title' => 'Hizmetlerimiz'],
-    'iletisim'     => ['file' => 'pages/contact.php',     'title' => 'İletişim'],
-    'error'     => ['file' => 'pages/error.php',     'title' => '404 Sayfa Bulunamadı'],
+    'anasayfa'                => ['file' => 'pages/home.php',           'title' => 'Anasayfa'],
+    'hakkimizda'              => ['file' => 'pages/about.php',          'title' => 'Hakkımızda'],
+    'hizmetler'               => ['file' => 'pages/services.php',       'title' => 'Hizmetlerimiz'],
+    'sik-sorulan-sorular'     => ['file' => 'pages/sss.php',            'title' => 'Sıkça Sorulan Sorular'],
+    'iletisim'                => ['file' => 'pages/contact.php',        'title' => 'İletişim'],
+    'error'                   => ['file' => 'pages/error.php',          'title' => '404 Sayfa Bulunamadı'],
 ];
 
-// GET ile gelen sayfa bilgisi
-$page = isset($_GET['page']) ? preg_replace('/[^a-z0-9]/', '', strtolower($_GET['page'])) : 'anasayfa';
-
-
-// Başlık belirleme
-if (array_key_exists($page, $allowed_pages)) {
-    $pageFile = $allowed_pages[$page]['file'];
-    $pageTitle = $allowed_pages[$page]['title'] . " | Emre Sigorta";
-} else {
-    // 404 dosyasını yükle
-    $pageFile = $allowed_pages['error']['file']; // yani pages/error.php
-    $pageTitle = $allowed_pages['error']['title'] . " | Emre Sigorta";
-    http_response_code(404); // Tarayıcıya gerçekten 404 olduğunu bildir
+function sanitize_slug($slug) {
+    // Türkçe karakterleri ASCII'ye dönüştür
+    $slug = iconv('UTF-8', 'ASCII//TRANSLIT', $slug);
+    // Küçük harfe çevir
+    $slug = strtolower($slug);
+    // Geçersiz karakterleri temizle (sadece a-z, 0-9 ve tire izinli)
+    $slug = preg_replace('/[^a-z0-9\-]/', '', $slug);
+    return $slug;
 }
+
+function get_page_info($slug, $allowed_pages) {
+    if (array_key_exists($slug, $allowed_pages)) {
+        return [
+            'file' => $allowed_pages[$slug]['file'],
+            'title' => $allowed_pages[$slug]['title'] . ' | Emre Sigorta Aracılık Hizmetleri',
+            'found' => true
+        ];
+    }
+
+    // 404 sayfası
+    http_response_code(404);
+    return [
+        'file' => $allowed_pages['error']['file'],
+        'title' => $allowed_pages['error']['title'] . ' | Emre Sigorta Aracılık Hizmetleri',
+        'found' => false
+    ];
+}
+
+// GET ile gelen sayfa slug'ı
+$raw_page = $_GET['page'] ?? 'anasayfa';
+$slug = sanitize_slug($raw_page);
+
+// Sayfa bilgilerini al
+$pageInfo = get_page_info($slug, $allowed_pages);
+
+// Sayfa başlığını ve dosyasını ayarla
+$pageTitle = $pageInfo['title'];
+$pageFile = $pageInfo['file'];
+
+
 
 
 // breadcrumb ve header için aktif sayfa tanımı
@@ -36,6 +61,9 @@ switch ($page_slug) {
         break;
     case 'hakkimizda':
         $page_title = 'Hakkımızda';
+        break;
+    case 'sik-sorulan-sorular':
+        $page_title = 'Sıkça Sorulan Sorular';
         break;
     case 'iletisim':
         $page_title = 'İletişim';
