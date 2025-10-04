@@ -4,7 +4,7 @@
 $allowed_pages = [
     'anasayfa'                => ['file' => 'pages/home.php',           'title' => 'Anasayfa'],
     'hakkimizda'              => ['file' => 'pages/about.php',          'title' => 'Hakkımızda'],
-    'hizmetler'               => ['file' => 'pages/services.php',       'title' => 'Hizmetlerimiz'],
+    'blog-makaleler'          => ['file' => 'pages/blog-makaleler.php', 'title' => 'Blog/Makaleler'],
     'sik-sorulan-sorular'     => ['file' => 'pages/sss.php',            'title' => 'Sıkça Sorulan Sorular'],
     'iletisim'                => ['file' => 'pages/contact.php',        'title' => 'İletişim'],
     'error'                   => ['file' => 'pages/error.php',          'title' => '404 Sayfa Bulunamadı'],
@@ -62,6 +62,9 @@ switch ($page_slug) {
     case 'hakkimizda':
         $page_title = 'Hakkımızda';
         break;
+    case 'blog-makaleler':
+        $page_title = 'Blog/Makaleler';
+        break;
     case 'sik-sorulan-sorular':
         $page_title = 'Sıkça Sorulan Sorular';
         break;
@@ -77,7 +80,15 @@ switch ($page_slug) {
 // 1. Menü tanımı ve gelen sayfayı header navbar da actif etme
 $page_active = isset($_GET['page']) ? $_GET['page'] : 'anasayfa';
 
+// 2. Menü tanımı ve gelen sayfayı header navbar da actif etme (dropdown için)
+$header_active = isset($_GET['page']) ? $_GET['page'] : '';
 
+function isActive($pages, $header_active) {
+    if (is_array($pages)) {
+        return in_array($header_active, $pages) ? 'active current-page-active' : '';
+    }
+    return $header_active === $pages ? 'active current-page-active' : '';
+}
 
 
 ?>

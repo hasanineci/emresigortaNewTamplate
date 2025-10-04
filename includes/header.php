@@ -38,7 +38,7 @@
                                         <li><a class="nav-link <?php echo ($page_active == 'hakkimizda') ? 'active' : ''; ?>" href="?page=hakkimizda" title="Hakkımızda">Hakkımızda</a></li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#" title="Sigorta Hizmetleri">
-                                                Sigorta Hizmetlerimiz
+                                                Sigorta Çözümleri
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="?page=trafik-sigortasi">Trafik Sigortası</a></li>
@@ -52,9 +52,20 @@
                                                 <li><a class="dropdown-item" href="?page=-ihtiyari-mali-mesuliyet-imm">İhtiyari Mali Mesuliyet (İMM)</a></li>
                                             </ul>
                                         </li>
-                                        <li><a class="nav-link" href="?page=musteri-yorumlari">Müşteri Yorumları</a></li>
-                                        <li><a class="nav-link <?php echo ($page_active == 'sik-sorulan-sorular') ? 'active' : ''; ?>" href="?page=sik-sorulan-sorular">SSS</a></li>
-                                        <li><a class="nav-link" href="?page=bilgi-merkezi">Bilgi Merkezi</a></li>
+                                        <li><a class="nav-link" href="?page=cozum-ortaklarimiz">Çözüm Ortaklarımız</a></li>
+                                        <li><a class="nav-link" href="?page=musteri-deneyimleri">Müşteri Deneyimleri</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-item dropdown-toggle <?php echo isActive(['blog-makaleleri','sik-sorulan-sorular','rehberlik-klavuzlar','sigorta-sozlugu','haberler-duyurular'], $header_active); ?>" href="#" title="Sigorta Bilgi Merkezi">
+                                                Bilgi Merkezi
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item <?php echo isActive('blog-makaleleri', $header_active); ?>" href="?page=blog-makaleler">Blog Makaleleri</a></li>
+                                                <li><a class="dropdown-item <?php echo isActive('sik-sorulan-sorular', $header_active); ?>" href="?page=sik-sorulan-sorular">Sıkça Sorulan Sorular</a></li>
+                                                <li><a class="dropdown-item <?php echo isActive('rehberlik-klavuzlar', $header_active); ?>" href="?page=rehberlik-klavuzlar">Rehberlik & Klavuzlar</a></li>
+                                                <li><a class="dropdown-item <?php echo isActive('sigorta-sozlugu', $header_active); ?>" href="?page=sigorta-sozlugu">Sigorta Sözlüğü</a></li>
+                                                <li><a class="dropdown-item <?php echo isActive('haberler-duyurular', $header_active); ?>" href="?page=haberler-duyurular">Haberler & Duyurular</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a class="nav-link <?php echo ($page_active == 'iletisim') ? 'active' : ''; ?>" href="?page=iletisim">İletişim</a></li>
                                     </ul>
                                 </nav>
