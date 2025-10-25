@@ -661,8 +661,7 @@ $page_keywords = 'Emre Sigorta, sigorta, trafik sigortası, kasko, sağlık sigo
                 </div>
                 <div class="px-5 py-1">
                     <img src="assets/img/referances/emresigorta_anadolu_sigorta.png" class="img-fluid" style="max-width: 140px;"
-                        alt="Anadolu Sigorta Logo | Emre Sigorta İş Ortağı"
-                        title="Anadolu Sigorta - Emre Sigorta Çözüm Ortağı" loading="lazy" decoding="async">
+                        alt="Anadolu Sigorta Logo | Emre Sigorta İş Ortağı" title="Anadolu Sigorta - Emre Sigorta Çözüm Ortağı" loading="lazy" decoding="async">
                 </div>
                 <div class="px-5 py-1">
                     <img src="assets/img/referances/emresigorta_ankara_sigorta.png" class="img-fluid" style="max-width: 140px;"

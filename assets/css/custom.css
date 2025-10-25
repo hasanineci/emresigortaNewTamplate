@@ -1,15 +1,29 @@
-.carousel-item>.p-relative>.row>.text-white> h2, h1{
+.carousel-item>.p-relative>.row>.text-white>h2,
+h1 {
     color: #d1d1d1;
 }
-.bg-mavi{
+
+.bg-mavi {
     background-color: #0088cc !important;
 }
-.bg-kırmızı{
+
+.bg-kırmızı {
     background-color: #a90432 !important;
 }
-.text-mavi{
+
+.text-mavi {
     color: #0088cc !important;
 }
-.divider-kırmızı{
+
+.divider-kırmızı {
     color: #a90432 !important;
+}
+
+/* Kırmızı (text-danger rengiyle uyumlu) ayırıcı çizgi */
+.divider-danger {
+    border: none;
+    border-top: 1px solid #dc3545;
+    width: 40%;
+    margin: 2.5rem auto;
+    opacity: 0.8
 }

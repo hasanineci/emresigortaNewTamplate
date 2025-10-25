@@ -53,17 +53,16 @@
                                             </ul>
                                         </li>
                                         <li><a class="nav-link" href="?page=cozum-ortaklarimiz">Çözüm Ortaklarımız</a></li>
-                                        <li><a class="nav-link" href="?page=musteri-deneyimleri">Müşteri Deneyimleri</a></li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle <?php echo isActive(['blog-makaleleri','sik-sorulan-sorular','rehberlik-klavuzlar','sigorta-sozlugu','haberler-duyurular'], $header_active); ?>" href="#" title="Sigorta Bilgi Merkezi">
+                                            <a class="dropdown-item dropdown-toggle <?php echo isActive(['blog-makaleleri','sik-sorulan-sorular','rehberlik-klavuzlar','sigorta-terimler-sozlugu','hasar-bildirimi-ve-surecleri'], $header_active); ?>" href="#" title="Sigorta Bilgi Merkezi">
                                                 Bilgi Merkezi
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item <?php echo isActive('blog-makaleleri', $header_active); ?>" href="?page=blog-makaleler">Blog Makaleleri</a></li>
-                                                <li><a class="dropdown-item <?php echo isActive('sik-sorulan-sorular', $header_active); ?>" href="?page=sik-sorulan-sorular">Sıkça Sorulan Sorular</a></li>
                                                 <li><a class="dropdown-item <?php echo isActive('rehberlik-klavuzlar', $header_active); ?>" href="?page=rehberlik-klavuzlar">Rehberlik & Klavuzlar</a></li>
-                                                <li><a class="dropdown-item <?php echo isActive('sigorta-sozlugu', $header_active); ?>" href="?page=sigorta-sozlugu">Sigorta Sözlüğü</a></li>
-                                                <li><a class="dropdown-item <?php echo isActive('haberler-duyurular', $header_active); ?>" href="?page=haberler-duyurular">Haberler & Duyurular</a></li>
+                                                <li><a class="dropdown-item <?php echo isActive('sik-sorulan-sorular', $header_active); ?>" href="?page=sik-sorulan-sorular">Sıkça Sorulan Sorular</a></li>
+                                                <li><a class="dropdown-item <?php echo isActive('sigorta-terimler-sozlugu', $header_active); ?>" href="?page=sigorta-terimler-sozlugu">Sigorta Terimler Sözlüğü</a></li>
+                                                <li><a class="dropdown-item <?php echo isActive('hasar-bildirimi-ve-surecleri', $header_active); ?>" href="?page=hasar-bildirimi-ve-surecleri">Hasar Bildirimi ve Süreçleri</a></li>
+                                                <li><a class="dropdown-item <?php echo isActive('blog-makaleleri', $header_active); ?>" href="?page=blog-makaleler">Blog Makaleleri</a></li>
                                             </ul>
                                         </li>
                                         <li><a class="nav-link <?php echo ($page_active == 'iletisim') ? 'active' : ''; ?>" href="?page=iletisim">İletişim</a></li>

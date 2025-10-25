@@ -2,12 +2,16 @@
 
 // Geçerli sayfalar
 $allowed_pages = [
-    'anasayfa'                => ['file' => 'pages/home.php',           'title' => 'Anasayfa'],
-    'hakkimizda'              => ['file' => 'pages/about.php',          'title' => 'Hakkımızda'],
-    'blog-makaleler'          => ['file' => 'pages/blog-makaleler.php', 'title' => 'Blog/Makaleler'],
-    'sik-sorulan-sorular'     => ['file' => 'pages/sss.php',            'title' => 'Sıkça Sorulan Sorular'],
-    'iletisim'                => ['file' => 'pages/contact.php',        'title' => 'İletişim'],
-    'error'                   => ['file' => 'pages/error.php',          'title' => '404 Sayfa Bulunamadı'],
+    'anasayfa'                      => ['file' => 'pages/home.php',                         'title' => 'Anasayfa'],
+    'hakkimizda'                    => ['file' => 'pages/about.php',                        'title' => 'Hakkımızda'],
+    'cozum-ortaklarimiz'            => ['file' => 'pages/cozum-ortaklarimiz.php',           'title' => 'Çözüm Ortaklarımız'],
+    'blog-makaleler'                => ['file' => 'pages/blog-makaleler.php',               'title' => 'Blog/Makaleler'],
+    'sik-sorulan-sorular'           => ['file' => 'pages/sss.php',                          'title' => 'Sıkça Sorulan Sorular'],
+    'rehberlik-klavuzlar'           => ['file' => 'pages/rehberlik-klavuzlar.php',          'title' => 'Rehberlik & Klavuzlar'],
+    'sigorta-terimler-sozlugu'      => ['file' => 'pages/sigorta-terimler-sozlugu.php',     'title' => 'Sigorta Terimler Sözlüğü'],
+    'hasar-bildirimi-ve-surecleri'  => ['file' => 'pages/hasar-bildirimi-ve-surecleri.php', 'title' => 'Hasae Bildirimi ve Süreçleri'],
+    'iletisim'                      => ['file' => 'pages/contact.php',                      'title' => 'İletişim'],
+    'error'                         => ['file' => 'pages/error.php',                        'title' => '404 Sayfa Bulunamadı'],
 ];
 
 function sanitize_slug($slug) {
@@ -62,11 +66,23 @@ switch ($page_slug) {
     case 'hakkimizda':
         $page_title = 'Hakkımızda';
         break;
+    case 'cozum-ortaklarimiz':
+        $page_title = 'Çözüm Ortaklarımız';
+        break;
     case 'blog-makaleler':
         $page_title = 'Blog/Makaleler';
         break;
     case 'sik-sorulan-sorular':
         $page_title = 'Sıkça Sorulan Sorular';
+        break;
+    case 'rehberlik-klavuzlar':
+        $page_title = 'Rehberlik & Klavuzlar';
+        break;
+    case 'sigorta-terimler-sozlugu':
+        $page_title = 'sigorta Terimler Sözlüğü';
+        break;
+    case 'hasar-bildirimi-ve-surecleri':
+        $page_title = 'Hasar Bildirimi ve Süreçleri';
         break;
     case 'iletisim':
         $page_title = 'İletişim';

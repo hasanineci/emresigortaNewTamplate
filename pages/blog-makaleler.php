@@ -21,7 +21,7 @@ include __DIR__ . '/../child/breadcrumb-data-center.php';
     <h2 class="mb-4 text-center">Trafik Sigortası Nedir? Nasıl Hesaplanır?</h2>
 
     <div class="mb-4">
-        <h4 class="text-danger"><i class="fa fa-car text-danger" aria-hidden="true"></i> Trafik Sigortası Nedir?</h4>
+        <h4 class="text-danger"><i class="fa fa-car text-danger px-2" aria-hidden="true"></i> Trafik Sigortası Nedir?</h4>
         <p>
             Trafik sigortası, Türkiye’de yasal olarak zorunlu olan ve resmi adıyla <strong>Zorunlu Mali Sorumluluk Sigortası</strong> olarak bilinen bir sigorta türüdür. Her motorlu taşıt sahibinin yaptırması mecburidir. Bu sigorta, trafik kazalarında karşı tarafa verilen <strong>maddi ve bedensel zararları</strong> karşılamak amacıyla yapılır.
         </p>
@@ -31,7 +31,7 @@ include __DIR__ . '/../child/breadcrumb-data-center.php';
     </div>
 
     <div class="mb-4">
-        <h4 class="text-success"><i class="fa fa-thumb-tack text-success" aria-hidden="true"></i> Teminat Kapsamı</h4>
+        <h4 class="text-success"><i class="fa fa-thumb-tack text-success px-2" aria-hidden="true"></i> Teminat Kapsamı</h4>
         <ul>
             <li>Karşı tarafın aracında oluşan hasar</li>
             <li>Yaralanma ve ölüm durumunda tıbbi masraflar</li>
@@ -41,7 +41,7 @@ include __DIR__ . '/../child/breadcrumb-data-center.php';
     </div>
 
     <div class="mb-4">
-        <h4 class="text-warning"><i class="fa fa-thumb-tack text-success" aria-hidden="true"></i> Trafik Sigortası Nasıl Hesaplanır?</h4>
+        <h4 class="text-warning"><i class="fa fa-thumb-tack text-warning px-2" aria-hidden="true"></i> Trafik Sigortası Nasıl Hesaplanır?</h4>
         <p>
             Trafik sigortası primleri sabit değildir ve birçok etkene göre değişkenlik gösterir. Aşağıdaki faktörler prim hesaplamasında belirleyici rol oynar:
         </p>
@@ -55,7 +55,7 @@ include __DIR__ . '/../child/breadcrumb-data-center.php';
     </div>
 
     <div class="mb-4">
-        <h4 class="text-info"><i class="fa fa-thumb-tack text-info" aria-hidden="true"></i> Trafik Sigortası Fiyatı Nereden Öğrenilir?</h4>
+        <h4 class="text-info"><i class="fa fa-thumb-tack text-info px-2" aria-hidden="true"></i> Trafik Sigortası Fiyatı Nereden Öğrenilir?</h4>
         <p>
             Trafik sigortası fiyatlarını öğrenmek için şu yöntemleri kullanabilirsiniz:
         </p>
