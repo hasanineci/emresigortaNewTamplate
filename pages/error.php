@@ -42,7 +42,33 @@
         <!-- main content -->
         <div class="main-content col-lg-12 my-5 py-5">
             <style>
-                .page-not-found{margin:50px 0}.page-not-found h2{font-size:140px;font-weight:600;letter-spacing:-10px;line-height:140px}.page-not-found p{font-size:1.4em;line-height:36px}@media (max-width:575px){.page-not-found{margin:0}.page-not-found h2{font-size:100px;letter-spacing:0;line-height:100px}}
+                .page-not-found {
+                    margin: 50px 0
+                }
+
+                .page-not-found h2 {
+                    font-size: 140px;
+                    font-weight: 600;
+                    letter-spacing: -10px;
+                    line-height: 140px
+                }
+
+                .page-not-found p {
+                    font-size: 1.4em;
+                    line-height: 36px
+                }
+
+                @media (max-width:575px) {
+                    .page-not-found {
+                        margin: 0
+                    }
+
+                    .page-not-found h2 {
+                        font-size: 100px;
+                        letter-spacing: 0;
+                        line-height: 100px
+                    }
+                }
             </style>
             <div id="content" class="no-content">
                 <div class="container">

@@ -1,5 +1,4 @@
-<?php include "child/page-settings.php"; ?>
-
+<?php include "app/page-settings.php"; ?>
 
 <!DOCTYPE html>
 <html lang="tr">
@@ -23,6 +22,9 @@
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
+    <!-- Font Awesome CDN - HEAD etiketine ekleyin -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <!-- Web Fonts  -->
     <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
 
@@ -45,8 +47,12 @@
     <!-- Skin CSS -->
     <link id="skinCSS" rel="stylesheet" href="assets/css/skins/skin-color.css">
 
+    <!-- Social Media CSS -->
+    <link rel="stylesheet" href="assets/css/social-media.css">
+
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
+
 
 </head>
 
@@ -65,6 +71,9 @@
             <?php include $pageFile; ?>
 
         </div>
+
+        <!-- WhatsApp Çubuk -->
+        <?php include "includes/social-media.php"; ?>
 
         <!-- Footer -->
         <?php include "includes/footer.php"; ?>

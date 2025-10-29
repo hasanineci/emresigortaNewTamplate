@@ -9,7 +9,7 @@ include __DIR__ . '/../child/breadcrumb-data-center.php';
 ?>
 
 
-<?php include __DIR__ . '/../includes/layout-data-center-header.php'; ?>
+<?php include __DIR__ . '/../includes/layout-data-center-sidebar-header.php'; ?>
 
 
 <!-- HEADER -->
@@ -107,4 +107,4 @@ include __DIR__ . '/../child/breadcrumb-data-center.php';
 
 
 
-<?php include __DIR__ . '/../includes/layout-data-center-footer.php'; ?>
+<?php include __DIR__ . '/../includes/layout-data-center-sidebar-footer.php'; ?>

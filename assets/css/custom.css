@@ -27,3 +27,53 @@ h1 {
     margin: 2.5rem auto;
     opacity: 0.8
 }
+
+/* Teklif Al sayfası için özelleştirilmiş hali  */
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #2c5aa0 0%, #1e3a8a 100%) !important;
+}
+
+.card-hover-1:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-border {
+    border: 1px solid #e9ecef;
+}
+
+.card-border-top {
+    border-top: 4px solid #2c5aa0;
+}
+
+.border-radius-0 {
+    border-radius: 0 !important;
+}
+
+.btn-modern {
+    transition: all 0.3s ease;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-modern:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-section {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

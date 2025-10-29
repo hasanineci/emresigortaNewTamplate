@@ -13,7 +13,7 @@ include __DIR__ . '/../child/breadcrumb-data-center.php';
 
 
 
-<?php include __DIR__ . '/../includes/layout-data-center-header.php'; ?>
+<?php include __DIR__ . '/../includes/layout-data-center-sidebar-header.php'; ?>
 
 
 <!-- 1. Trafik sigortası nedir, nasıl hesaplanır-->
@@ -145,7 +145,7 @@ include __DIR__ . '/../child/breadcrumb-data-center.php';
 </div>
 
 
-<?php include __DIR__ . '/../includes/layout-data-center-footer.php'; ?>
+<?php include __DIR__ . '/../includes/layout-data-center-sidebar-footer.php'; ?>
 
 
 

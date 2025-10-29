@@ -1,0 +1,161 @@
+
+/* sosyal medya */
+.side-button {
+    position: fixed;
+    right: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    border-radius: 5px 0 0 5px;
+    text-decoration: none;
+    z-index: 1001;
+    transition: all 0.3s ease;
+    width: 32px;
+    height: 32px;
+    box-shadow: -1px 0 6px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.side-button:hover {
+    width: 40px;
+    padding: 10px 8px;
+}
+
+.side-button i {
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.side-button:hover i {
+    transform: scale(1.1);
+}
+
+/* WhatsApp butonu */
+.whatsapp-btn {
+    background: #25D366;
+    top: calc(50% - 60px); /* Ortadan 60px yukarı */
+}
+
+.whatsapp-btn:hover {
+    background: #128C7E;
+}
+
+/* Instagram butonu */
+.instagram-btn {
+    background: #E4405F;
+    top: calc(50% - 20px); /* Ortadan 20px yukarı */
+}
+
+.instagram-btn:hover {
+    background: #C13584;
+}
+
+/* Facebook butonu */
+.facebook-btn {
+    background: #1877F2;
+    top: calc(50% + 20px); /* Ortadan 20px aşağı */
+}
+
+.facebook-btn:hover {
+    background: #166FE5;
+}
+
+/* Harita butonu */
+.map-btn {
+    background: #FF4444;
+    top: calc(50% + 60px); /* Ortadan 60px aşağı */
+}
+
+.map-btn:hover {
+    background: #CC0000;
+}
+
+/* Harita Modal */
+.map-modal {
+    display: none;
+    position: fixed;
+    z-index: 1002;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    overflow-y: auto; /* Mobilde kaydırma için */
+}
+
+.map-modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto; /* Ortalamak için */
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    animation: modalFade 0.3s;
+    
+    /* Modal'ı dikeyde ortala */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes modalFade {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.9); /* Ortalama ile birlikte */
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.close-map {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1003;
+    background: rgba(255,255,255,0.8);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.close-map:hover {
+    color: #000;
+    background: rgba(255,255,255,1);
+}
+
+/* Mobil için harita modal */
+@media (max-width: 768px) {
+    .map-modal-content {
+        width: 95%;
+        padding: 15px;
+        margin: 20px auto;
+        max-height: 90vh; /* Maksimum yükseklik */
+        overflow-y: auto; /* İçerik taşarsa kaydırma */
+    }
+    
+    .map-modal-content iframe {
+        height: 400px; /* Mobilde sabit yükseklik */
+    }
+    
+    .close-map {
+        top: 5px;
+        right: 10px;
+        font-size: 24px;
+        width: 25px;
+        height: 25px;
+    }
+}
